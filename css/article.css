@@ -1,0 +1,32 @@
+section article {
+    width: 100vw;
+}
+section article .Container .CF {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20rem;
+}
+section article .Container h2,
+section article .Container h3,
+section article .Container p {
+    margin-inline: auto;
+}
+section article .Container .CF p {
+    margin-bottom: 3.5rem;
+}
+/* ##################################### */
+section article .Container .CF2 {
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 20rem;
+}
+section article .Container .CF2 img {
+    width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+section article .Container .CF2 .card2 h3:hover {
+    cursor: pointer;
+    color: rgba(49,211,92,1);
+}

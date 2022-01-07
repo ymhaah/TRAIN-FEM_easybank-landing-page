@@ -1,0 +1,138 @@
+@media screen and (max-width: 2560px) {
+    html {
+        font-size: 18px;
+    }
+    .Container {
+        width: 80%;
+    }
+    h2,
+    h3,
+    p {
+        max-width: 540px;
+        align-self: start;
+    }
+    /* Hero */
+    section .Hero {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    section .Hero-Star {
+        width: 50%;
+    }
+    section .Hero-Text {
+        width: 50%;
+        padding-left: 14rem;
+    }
+    section .Hero-Star .desk {
+        display: block;
+    }
+    section .Hero-Star .mob {
+        display: none;
+    }
+    section button {
+        width: 35%;
+        align-self: start;
+    }
+    section .Hero-Text h2 {
+        margin-top: 20rem;
+    }
+    /* Hero */
+    /*section*/
+    section article .Container .CF {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    /*section*/
+} /*For 4K */
+@media screen and (max-width: 1600px) {
+    html {
+        font-size: 12px;
+    }
+    .Container {
+        width: 90%;
+    }
+    /* Hero */
+    section .Hero-Text {
+        padding-left: 6rem;
+    }
+    /* Hero */
+    /*section*/
+    section article .Container .CF {
+        justify-content: space-between;
+    }
+    /*section*/
+} /*For L Monitor */
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 10px;
+    }
+    h2,
+    h3,
+    p {
+        align-self: center;
+    }
+    /* Hero */
+    section .Hero {
+        display: flex;
+        flex-direction: column;
+    }
+    section .Hero-Star {
+        width: 100%;
+    }
+    section .Hero-Text {
+        width: 100%;
+        text-align: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    section .Hero-Star .desk {
+        display: none;
+    }
+    section .Hero-Star .mob {
+        display: block;
+    }
+    section .Hero-Star {
+        height: 750px;
+    }
+    section .Hero-Text h2 {
+        margin-top: 0;
+    }
+    section button {
+        width: 90%;
+        align-self: center;
+    }
+    /* Hero */
+}/*For laptop, S-Monitor */
+@media screen and (max-width: 768px) {
+    /* header */
+    header .Container nav {
+        width: auto;
+        height: auto;
+    }
+    header .Container nav ul {
+        display: none;
+    }
+    header .Container nav img {
+        display: block;
+    }
+    header .Container button {
+        display: none;
+    }
+    /* header */
+    /* Hero */
+    /*section*/
+    section article .Container .CF,
+    section article .Container .CF2 {
+        flex-direction: column;
+        justify-content: none;
+        text-align: center;
+    }
+    /*section*/
+}/*For tablets */
+@media screen and (max-width: 425px) {
+    /* Hero */
+    section .Hero-Star {
+        height: 520px;
+    }
+    /* Hero */
+} /*For M,L phones */

@@ -1,0 +1,30 @@
+section .Hero {
+    width: 100%;
+}
+section .Hero-Star {
+    position: relative;
+}
+section .Hero-Star img {
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+}
+section .Hero-Star .intro-img {
+    top: -8rem;
+}
+section .Hero-Star .intro-img {
+    width: 100%;
+    min-height: 520px;
+    max-height: 820px;
+    position: absolute;
+    top: -8rem;
+    z-index: -1;
+}
+section .Hero-Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .Hero-Text button {
+    margin-top: 50px;
+}
