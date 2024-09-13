@@ -1,6 +1,12 @@
-# [project link](https://ymhaah.github.io/easybank-landing-page/)
-## from front end mentor [challenge link](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN)
+# Frontend Mentor - Easybank landing page solution
+
+This is a solution to the [Easybank landing page](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN) challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+- [solution link](https://ymhaah.github.io/TRAIN-FEM_easybank-landing-page/)
+- [challenge link](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN)
+  
 ![](https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/yezt1f56cfp2njnakpbo.jpg)
+
 ### Useful resources
 
 Check out my latest previous articles:
